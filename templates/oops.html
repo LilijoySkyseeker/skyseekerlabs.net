@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }} · {{ config.title }}{% endblock title %}
+{% block content %}
+<div class="nf">
+  <div>
+    <span class="tag" style="--r:-2deg; background: var(--orange)">oops</span>
+    <h1 class="page-title">You did it wrong. (Nicely.)</h1>
+    <p class="lede" style="max-width: 46ch">{{ page.extra.lede }}</p>
+    <div class="prose">{{ page.content | safe }}</div>
+    <p><a href="/">Since you're here, have a look around.</a></p>
+  </div>
+  <img src="/img/xenia/point.webp" alt="Xenia pointing you the right way">
+</div>
+{% endblock content %}
