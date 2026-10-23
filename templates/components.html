@@ -54,9 +54,11 @@
     <ol class="timeline">{% for e in cv.education %}<li><time>{{ e.year }}</time><b>{{ e.title }}</b>, {{ e.org }}<small>{{ e.when }}</small></li>{% endfor %}</ol>
   </div>
 </div>
+{%- if r.projects %}
 <h2 class="sub-h">Projects that show it</h2>
 <div class="proj-grid">
 {%- set projects = get_section(path="projects/_index.md") -%}
 {%- for id in r.projects %}{% for p in projects.pages %}{% if p.slug == id %}{{ <project_card p={p} n={loop.index0} /> }}{% endif %}{% endfor %}{% endfor %}
 </div>
+{%- endif %}
 {%- endcomponent hire %}

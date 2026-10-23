@@ -58,7 +58,7 @@ short = "electronics technician"
 lede = "Four years of electronics technology training, a year of electrical engineering, and a habit of soldering things at home: split keyboards from kits, battery swaps, a solar mesh-radio repeater, and two robots that won their competitions. I'm looking for <b>electronics technician</b> work, and I bring the Linux and IT side with me."
 facts = [["4 years", "electronics technology training", "--sky"], ["2 for 2", "robot competitions won, built solo", "--green"], ["SMD + through-hole", "soldering, scopes and meters", "--yellow"], ["Solar", "LoRa mesh repeater, run for months", "--pink"]]
 skills_order = ["Hardware", "Linux", "Infrastructure", "Scripting", "AI agents", "Other OSes"]
-projects = ["ergo-keyboards", "robotics-competitions", "device-repair", "meshtastic", "workshop-build", "log-monitoring"]
+projects = []
 
 [roles.sysadmin]
 title = "Linux and NixOS sysadmin"
@@ -66,7 +66,7 @@ short = "Linux sysadmin"
 lede = "Hi, I'm Lillian. I'm an IT professional focused on Linux and sysadmin work, specifically NixOS and declarative config, with secondary skills in electronics technician work and hands-on building. I run a five-machine NixOS fleet with tested backups and monitoring that has caught real failures, and I take on IT work through <a href=\"/labs/\">SkyseekerLabs</a>."
 facts = [["5", "NixOS machines, one Git repo", "--sky"], ["873 GB", "restored in a drill, verified", "--green"], ["7+ years", "of Linux", "--yellow"], ["153", "reviewed changes merged, Aug–Oct 2026", "--pink"]]
 skills_order = ["Linux", "Infrastructure", "Hardware", "Scripting", "AI agents", "Other OSes"]
-projects = ["nixos-fleet", "restore-drills", "vps-edge", "log-monitoring", "sops-secrets", "nixos-anywhere"]
+projects = []
 
 [roles.it]
 title = "IT support"
@@ -74,7 +74,7 @@ short = "IT support"
 lede = "I'm the person family and friends call: printers, Wi-Fi, viruses, backups, new laptops, and teaching relatives to use them. Behind that is a homelab I run like a small office. I'm looking for <b>help desk and IT support</b> roles."
 facts = [["Years", "of family and friends IT", "--sky"], ["Windows, macOS, Linux", "iOS and Android too", "--green"], ["Backups", "set up for others, tested on mine", "--yellow"], ["2 years", "of network administration study", "--pink"]]
 skills_order = ["Other OSes", "Linux", "Infrastructure", "Hardware", "Scripting", "AI agents"]
-projects = ["family-it-support", "device-repair", "pihole", "self-hosted-services", "fido2-ssh", "restore-drills"]
+projects = []
 
 [roles.devops]
 title = "DevOps and infrastructure"
@@ -82,4 +82,4 @@ short = "DevOps"
 lede = "Everything I run is declared in Git: five NixOS hosts, secrets, DNS and backups, with automated builds, reviewed pull requests and unattended jobs on timers. I'm looking for <b>DevOps and infrastructure</b> roles."
 facts = [["100%", "of the fleet declared in Git", "--sky"], ["30 min", "unattended server reinstall", "--green"], ["153", "reviewed changes merged, Aug–Oct 2026", "--yellow"], ["158", "audit findings ranked by root cause", "--pink"]]
 skills_order = ["Infrastructure", "Linux", "Hardware", "Scripting", "AI agents", "Other OSes"]
-projects = ["nixos-fleet", "nixos-anywhere", "agent-scheduled-jobs", "sops-secrets", "agent-security-audit", "log-monitoring"]
+projects = []
