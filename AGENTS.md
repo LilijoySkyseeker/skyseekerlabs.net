@@ -23,7 +23,9 @@ The source of skyseekerlabs.net: a Zola site built and served with Nix.
 
 ## Rules
 
-- Copy voice: human, casual, witty. Plain sentences, no AI tics.
+- Copy voice: human, casual, witty. Plain sentences, no AI tics. No em
+  dashes or stand-ins for them (en dash or spaced hyphen between clauses);
+  ranges like 2023–2025 are fine. Ellipses are "...", never "…".
 - Personal details: nothing beyond what the site already shows. Never add a
   phone number or a street address.
 - Everything we make is CC0. Anything from someone else goes in ASSETS.md,
