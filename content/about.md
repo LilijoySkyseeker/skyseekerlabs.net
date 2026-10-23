@@ -5,22 +5,26 @@ description = "Lilijoy: home sysadmin, generalist, Linux person."
 tag = "/about"
 colour = "yellow"
 +++
-Hi, I'm Lilijoy. I'm your local computer and home sysadmin. I do nerdy stuff with computers: I run my own [homelab](/fleet/), I self-host as much as I can, and I'm a big open source software enthusiast.
+Hi, I'm Lilijoy, your local computer person and home sysadmin. I run my own [homelab](/fleet/), I self-host everything I can, and I'm a big open source enthusiast.
 
-I also do lots of hands-on projects: [keyboards](/projects/ergo-keyboards/), electronics, helping people work with their hands. I know how to use power tools, I know how to solder, tons of different stuff like that. I'm a generalist, but I love Linux. I love the computer stuff.
+The other half of me works with my hands. I build [keyboards](/projects/ergo-keyboards/), I solder, I know my way around power tools, and I like helping other people learn to work with theirs. I'm a generalist, but if you make me pick one thing, it's Linux. It's always Linux.
 
 ## Not a one-trick pony
 
-People tend to assume I only do computers. I've also worked on cars. I've worked on tractors. I've worked on boats. I know how to sail, and I maintain all my own bicycles. Lots of niche skills, all sorts of stuff like that.
+People who meet me through computers tend to assume computers are all I do, but I've also worked on cars, tractors and boats, I know how to sail, and I maintain every bicycle I own myself.
 
 ## What I'm looking for
 
-Right now I'm hunting for electronics technician work in the San Francisco Bay Area. IT and sysadmin is what I enjoy most, but those roles are saturated right now and companies are hiring fewer juniors. If you're hiring for something NixOS-focused, I'd love to hear from you. The serious version is on [/hire](/hire/electronics/).
+Right now, that's electronics technician work in the San Francisco Bay Area, where the field is fairly open and short of people.
+
+IT and sysadmin work is what I enjoy most, but that market is crowded. Most companies are cutting their junior hires, and junior is where my experience puts me. The exception would be a role built around NixOS. If that's yours, I'd *love* to hear about it. The formal version of all this is on [/hire](/hire/electronics/).
 
 ## SkyseekerLabs
 
-[SkyseekerLabs](/labs/) is my LLC. It's mostly an easy and proper way for friends, family and people I know to hire me when they want me to do something and want to pay for it. If it turns into a proper business, amazing, but it's a side thing.
+[SkyseekerLabs](/labs/) is my LLC. When friends, family or people I know want to hire me for something, it gives them a proper way to do it and keeps that work separate from everything else. If it grows into a real business, wonderful. For now it's a side thing.
 
 ## Outside the computers
 
-I have things I like to read, things I like to build, and games. They're on here because they show I'm a person and not a robot. This site is where I share the stuff I like, I'm passionate about and I care about, in one spot I can link people to: [the lid](/#collage), [every sticker](/stickers/), and [the quote jar](/quote-jar/).
+I read, I build things, and I play games. They're on this site because they show there's a person behind it, which is nice for friends and anyone who wanders in, and useful if you're deciding whether to hire me. (A real person, promise. A robot would have fewer stickers.)
+
+Eventually there will be pages for the stories I've been reading and the other things I care about. For now there's [the lid](/#collage), [every sticker](/stickers/) and [the quote jar](/quote-jar/), all in one place I can point people to.
