@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="hello" style="grid-template-columns: minmax(0, 1fr)">
+  <div>
+    <div class="intro" style="max-width: 40ch">{{ section.content | safe }}</div>
+    <p class="sub">{{ section.extra.sub | safe }}</p>
+  </div>
+</div>
+<nav class="doors" aria-label="Where to start">
+  <a class="door" href="/hire/" style="--r:-2deg; background: var(--green)"><b>Hiring me?</b><span>Skills, history and the projects that prove them.</span></a>
+  <a class="door" href="/labs/" style="--r:1.5deg; background: var(--sky)"><b>Need IT help?</b><span>SkyseekerLabs: what I fix, how it goes, what it costs.</span></a>
+  <a class="door" href="#collage" style="--r:-1deg; background: var(--pink)"><b>Just looking?</b><span>Peel some stickers. The fox won't bite.</span></a>
+</nav>
+<div class="collage-head">
+  <h2>The lid</h2>
+  <p>Everything I use, used to use, or just really like. Hover to peel one up, click to visit. <a href="/stickers/">All of them, flat.</a></p>
+</div>
+<div class="collage nojs-flow" id="collage" aria-label="A ThinkPaw laptop lid covered in stickers">
+  <div class="tplogo" aria-hidden="true"><span class="ibm"><b class="r">S</b><b class="g">S</b><b class="b">L</b></span><span class="tp">Th<span class="dotless">ı<i class="led"></i></span>nkPaw</span></div>
+  {%- for s in load_data(path="data/stickers.json") %}
+  {{ <sticker s={s} /> }}
+  {%- endfor %}
+</div>
+<div class="two">
+  <div class="panel">
+    <h2>Lately in writing</h2>
+    <ul class="posts">
+      {%- set writing = get_section(path="writing/_index.md") -%}
+      {%- for p in writing.pages[:3] %}
+      <li><span class="kind {{ p.extra.kind | default(value='log') }}">{{ p.extra.kind | default(value="log") }}</span><a href="{{ p.permalink }}">{{ p.title }}</a><small>{{ p.date | date(format="%-d %b %Y") }}{% for t in p.taxonomies.tags | default(value=[]) %} · {{ t }}{% endfor %}</small></li>
+      {%- endfor %}
+    </ul>
+  </div>
+  <div class="panel">
+    <h2><a href="/now/" style="color: var(--fg); text-decoration: none">Now</a></h2>
+    {%- set now = get_page(path="now.md") %}
+    <div class="now">{{ now.content | safe }}</div>
+  </div>
+</div>
+{% endblock content %}

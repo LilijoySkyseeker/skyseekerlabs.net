@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }} · {{ config.title }}{% endblock title %}
+{% block description %}{{ page.description }}{% endblock description %}
+{% block content %}
+<span class="tag" style="--r:-2deg; background: var({% if page.extra.vibe == "serious" %}--sky{% else %}--pink{% endif %})">{{ page.extra.vibe }} project</span>
+<h1 class="page-title">{{ page.title }}</h1>
+<p class="lede" style="max-width: 62ch">{{ page.description }}</p>
+{%- if page.extra.link %}<p><a class="btn ghost" href="{{ page.extra.link }}">see it →</a></p>{% endif %}
+<div class="prose">{{ page.content | safe }}</div>
+<p><a href="/projects/">← all projects</a></p>
+{% endblock content %}

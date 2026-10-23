@@ -1,0 +1,20 @@
+base_url = "https://skyseekerlabs.net"
+title = "SkyseekerLabs"
+description = "Lillian Skyler Danforth (Lilijoy): Linux and NixOS sysadmin, electronics, and IT work through SkyseekerLabs LLC."
+default_language = "en"
+compile_sass = false
+minify_html = false
+build_search_index = false
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+taxonomies = [{ name = "tags", feed = false, render = false }]
+
+[markdown]
+smart_punctuation = true
+external_links_target_blank = true
+external_links_no_referrer = true
+
+[extra]
+repo = "https://github.com/LilijoySkyseeker/skyseekerlabs.net"
+config_repo = "https://github.com/LilijoySkyseeker/nixOS"
+email = "danforthls@skyseekerlabs.net"

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}The quote jar · {{ config.title }}{% endblock title %}
+{% block content %}
+<span class="tag" style="--r:-2deg; background: var(--green)">/quote-jar</span>
+<h1 class="page-title">Xenia's quote jar</h1>
+<div class="prose" style="color: var(--muted)">{{ page.content | safe }}</div>
+<ol class="quotes">
+{%- for q in load_data(path="static/data/quotes.json") %}
+  <li>{{ q[0] }}<cite>{% if q[2] %}<a href="{{ q[2] }}">{{ q[1] }}</a>{% else %}{{ q[1] }}{% endif %}</cite></li>
+{%- endfor %}
+</ol>
+{% endblock content %}

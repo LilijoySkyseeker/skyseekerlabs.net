@@ -1,0 +1,574 @@
+[
+ {
+  "kind": "label",
+  "id": "nixos",
+  "title": "NixOS",
+  "url": "https://nixos.org",
+  "src": "/img/logos/flat/nixos.webp",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "cut",
+  "id": "tux",
+  "title": "Tux",
+  "url": "https://www.kernel.org",
+  "src": "/img/logos/tux.svg",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "disc",
+  "id": "gnu",
+  "title": "GNU",
+  "url": "https://www.gnu.org",
+  "src": "/img/logos/flat/gnu.webp",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "cut",
+  "id": "git",
+  "title": "Git",
+  "url": "https://git-scm.com",
+  "src": "/img/logos/git.svg",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "disc",
+  "id": "debian",
+  "title": "Debian",
+  "url": "https://www.debian.org",
+  "src": "/img/logos/flat/debian.webp",
+  "bg": "#A81D33"
+ },
+ {
+  "kind": "label",
+  "id": "ubuntu",
+  "title": "Ubuntu",
+  "url": "https://ubuntu.com",
+  "src": "/img/logos/flat/ubuntu.webp",
+  "bg": "#E95420"
+ },
+ {
+  "kind": "disc",
+  "id": "popos",
+  "title": "Pop!_OS",
+  "url": "https://system76.com/pop/",
+  "src": "/img/logos/flat/popos.webp",
+  "bg": "#48B9C7"
+ },
+ {
+  "kind": "disc",
+  "id": "endeavouros",
+  "title": "EndeavourOS",
+  "url": "https://endeavouros.com",
+  "src": "/img/logos/flat/endeavouros.webp",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "label",
+  "id": "archlinux",
+  "title": "Arch Linux",
+  "url": "https://archlinux.org",
+  "src": "/img/logos/flat/archlinux.webp",
+  "bg": "#1793D1"
+ },
+ {
+  "kind": "label",
+  "id": "fedora",
+  "title": "Fedora",
+  "url": "https://fedoraproject.org",
+  "src": "/img/logos/flat/fedora.webp",
+  "bg": "#51A2DA"
+ },
+ {
+  "kind": "cut",
+  "id": "gentoo",
+  "title": "Gentoo",
+  "url": "https://www.gentoo.org",
+  "src": "/img/logos/gentoo.svg",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "label",
+  "id": "redhat",
+  "title": "Red Hat",
+  "url": "https://www.redhat.com",
+  "src": "/img/logos/flat/redhat.webp",
+  "bg": "#EE0000"
+ },
+ {
+  "kind": "label",
+  "id": "nobara",
+  "title": "Nobara",
+  "url": "https://nobaraproject.org",
+  "src": "/img/logos/flat/nobara.webp",
+  "bg": "#1E1E2E"
+ },
+ {
+  "kind": "label",
+  "id": "bazzite",
+  "title": "Bazzite",
+  "url": "https://bazzite.gg",
+  "src": "/img/logos/flat/bazzite.webp",
+  "bg": "#8B3DFF"
+ },
+ {
+  "kind": "disc",
+  "id": "kde-plasma",
+  "title": "KDE Plasma",
+  "url": "https://kde.org/plasma-desktop/",
+  "src": "/img/logos/flat/kde-plasma.webp",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "disc",
+  "id": "github",
+  "title": "GitHub",
+  "url": "https://github.com",
+  "src": "/img/logos/flat/github.webp",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "label",
+  "id": "neovim",
+  "title": "Neovim",
+  "url": "https://neovim.io",
+  "src": "/img/logos/flat/neovim.webp",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "disc",
+  "id": "vim",
+  "title": "Vim",
+  "url": "https://www.vim.org",
+  "src": "/img/logos/flat/vim.webp",
+  "bg": "#019733"
+ },
+ {
+  "kind": "label",
+  "id": "docker",
+  "title": "Docker",
+  "url": "https://www.docker.com",
+  "src": "/img/logos/flat/docker.webp",
+  "bg": "#2496ED"
+ },
+ {
+  "kind": "label",
+  "id": "podman",
+  "title": "Podman",
+  "url": "https://podman.io",
+  "src": "/img/logos/flat/podman.webp",
+  "bg": "#892CA0"
+ },
+ {
+  "kind": "label",
+  "id": "qemu",
+  "title": "QEMU",
+  "url": "https://www.qemu.org",
+  "src": "/img/logos/flat/qemu.webp",
+  "bg": "#FF6600"
+ },
+ {
+  "kind": "label",
+  "id": "wireguard",
+  "title": "WireGuard",
+  "url": "https://www.wireguard.com",
+  "src": "/img/logos/flat/wireguard.webp",
+  "bg": "#88171A"
+ },
+ {
+  "kind": "label",
+  "id": "tailscale",
+  "title": "Tailscale",
+  "url": "https://tailscale.com",
+  "src": "/img/logos/flat/tailscale.webp",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "label",
+  "id": "caddy",
+  "title": "Caddy",
+  "url": "https://caddyserver.com",
+  "src": "/img/logos/flat/caddy.webp",
+  "bg": "#1F88C0"
+ },
+ {
+  "kind": "label",
+  "id": "jellyfin",
+  "title": "Jellyfin",
+  "url": "https://jellyfin.org",
+  "src": "/img/logos/flat/jellyfin.webp",
+  "bg": "#00A4DC"
+ },
+ {
+  "kind": "disc",
+  "id": "immich",
+  "title": "Immich",
+  "url": "https://immich.app",
+  "src": "/img/logos/flat/immich.webp",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "disc",
+  "id": "nextcloud",
+  "title": "Nextcloud",
+  "url": "https://nextcloud.com",
+  "src": "/img/logos/flat/nextcloud.webp",
+  "bg": "#0082C9"
+ },
+ {
+  "kind": "disc",
+  "id": "steam",
+  "title": "Steam",
+  "url": "https://store.steampowered.com",
+  "src": "/img/logos/flat/steam.webp",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "cut",
+  "id": "obsidian",
+  "title": "Obsidian",
+  "url": "https://obsidian.md",
+  "src": "/img/logos/obsidian.svg",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "cut",
+  "id": "firefox",
+  "title": "Firefox",
+  "url": "https://www.firefox.com",
+  "src": "/img/logos/firefox.svg",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "cut",
+  "id": "claude",
+  "title": "Claude",
+  "url": "https://claude.ai",
+  "src": "/img/logos/claude.svg",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "cut",
+  "id": "openai-codex",
+  "title": "OpenAI Codex",
+  "url": "https://openai.com/codex/",
+  "src": "/img/logos/openai-codex.png",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "label",
+  "id": "ifixit",
+  "title": "iFixit",
+  "url": "https://www.ifixit.com",
+  "src": "/img/logos/flat/ifixit.webp",
+  "bg": "#0071CE"
+ },
+ {
+  "kind": "label",
+  "id": "amd",
+  "title": "AMD",
+  "url": "https://www.amd.com",
+  "src": "/img/logos/flat/amd.webp",
+  "bg": "#111111"
+ },
+ {
+  "kind": "cut",
+  "id": "raspberrypi",
+  "title": "Raspberry Pi",
+  "url": "https://www.raspberrypi.com",
+  "src": "/img/logos/raspberrypi.png",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "disc",
+  "id": "arduino",
+  "title": "Arduino",
+  "url": "https://www.arduino.cc",
+  "src": "/img/logos/flat/arduino.webp",
+  "bg": "#00878F"
+ },
+ {
+  "kind": "label",
+  "id": "musicbrainz",
+  "title": "MusicBrainz",
+  "url": "https://musicbrainz.org",
+  "src": "/img/logos/flat/musicbrainz.webp",
+  "bg": "#BA478F"
+ },
+ {
+  "kind": "disc",
+  "id": "pihole",
+  "title": "Pi-hole",
+  "url": "https://pi-hole.net",
+  "src": "/img/logos/flat/pihole.webp",
+  "bg": "#96060C"
+ },
+ {
+  "kind": "label",
+  "id": "freshrss",
+  "title": "FreshRSS",
+  "url": "https://freshrss.org",
+  "src": "/img/logos/flat/freshrss.webp",
+  "bg": "#0062BE"
+ },
+ {
+  "kind": "cut",
+  "id": "signal",
+  "title": "Signal",
+  "url": "https://signal.org",
+  "src": "/img/logos/signal.svg",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "disc",
+  "id": "qmk",
+  "title": "QMK",
+  "url": "https://qmk.fm",
+  "src": "/img/logos/flat/qmk.webp",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "disc",
+  "id": "vial",
+  "title": "Vial",
+  "url": "https://get.vial.today",
+  "src": "/img/logos/flat/vial.webp",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "label",
+  "id": "wooting",
+  "title": "Wooting",
+  "url": "https://wooting.io",
+  "src": "/img/logos/flat/wooting.webp",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "disc",
+  "id": "openzfs",
+  "title": "OpenZFS",
+  "url": "https://openzfs.org",
+  "src": "/img/logos/flat/openzfs.webp",
+  "bg": "#2A667F"
+ },
+ {
+  "kind": "label",
+  "id": "zrepl",
+  "title": "zrepl",
+  "url": "https://zrepl.github.io",
+  "src": "/img/logos/flat/zrepl.webp",
+  "bg": "#222"
+ },
+ {
+  "kind": "cut",
+  "id": "sops-nix",
+  "title": "sops-nix",
+  "url": "https://github.com/Mic92/sops-nix",
+  "src": "/img/logos/sops-nix.webp",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "cut",
+  "id": "fish",
+  "title": "fish shell",
+  "url": "https://fishshell.com",
+  "src": "/img/logos/fish.svg",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "label",
+  "id": "tmux",
+  "title": "tmux",
+  "url": "https://github.com/tmux/tmux",
+  "src": "/img/logos/flat/tmux.webp",
+  "bg": "#1BB91F"
+ },
+ {
+  "kind": "cut",
+  "id": "starship",
+  "title": "Starship",
+  "url": "https://starship.rs",
+  "src": "/img/logos/starship.svg",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "label",
+  "id": "bash",
+  "title": "GNU Bash",
+  "url": "https://www.gnu.org/software/bash/",
+  "src": "/img/logos/flat/bash.webp",
+  "bg": "#4EAA25"
+ },
+ {
+  "kind": "cut",
+  "id": "modrinth",
+  "title": "Modrinth",
+  "url": "https://modrinth.com",
+  "src": "/img/logos/modrinth.svg",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "cut",
+  "id": "minecraft",
+  "title": "Minecraft",
+  "url": "https://www.minecraft.net",
+  "src": "/img/logos/minecraft.png",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "label",
+  "id": "factorio",
+  "title": "Factorio",
+  "url": "https://factorio.com",
+  "src": "/img/logos/flat/factorio.webp",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "label",
+  "id": "hytale",
+  "title": "Hytale",
+  "url": "https://hytale.com",
+  "src": "/img/logos/flat/hytale.webp",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "label",
+  "id": "meshtastic",
+  "title": "Meshtastic",
+  "url": "https://meshtastic.org",
+  "src": "/img/logos/flat/meshtastic.webp",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "disc",
+  "id": "freefall",
+  "title": "Freefall",
+  "url": "http://freefall.purrsia.com",
+  "src": "/img/logos/flat/freefall.webp",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "cut",
+  "id": "vinyl-scratch",
+  "title": "Vinyl Scratch (My Little Pony: Friendship Is Magic)",
+  "url": "https://en.wikipedia.org/wiki/My_Little_Pony:_Friendship_Is_Magic",
+  "src": "/img/logos/vinyl-scratch.svg",
+  "bg": "#fbfbfb"
+ },
+ {
+  "kind": "game",
+  "id": "marvel-rivals",
+  "title": "Marvel Rivals",
+  "url": "https://store.steampowered.com/app/2767030/",
+  "src": "/img/logos/games/marvel-rivals.webp"
+ },
+ {
+  "kind": "game",
+  "id": "beamng",
+  "title": "BeamNG.drive",
+  "url": "https://store.steampowered.com/app/284160/",
+  "src": "/img/logos/games/beamng.webp"
+ },
+ {
+  "kind": "game",
+  "id": "ksp",
+  "title": "Kerbal Space Program",
+  "url": "https://store.steampowered.com/app/220200/",
+  "src": "/img/logos/games/ksp.webp"
+ },
+ {
+  "kind": "game",
+  "id": "robocraft",
+  "title": "Robocraft",
+  "url": "https://en.wikipedia.org/wiki/Robocraft",
+  "src": "/img/logos/games/robocraft.webp"
+ },
+ {
+  "kind": "game",
+  "id": "pa-titans",
+  "title": "Planetary Annihilation: TITANS",
+  "url": "https://store.steampowered.com/app/386070/",
+  "src": "/img/logos/games/pa-titans.webp"
+ },
+ {
+  "kind": "game",
+  "id": "reassembly",
+  "title": "Reassembly",
+  "url": "https://store.steampowered.com/app/329130/",
+  "src": "/img/logos/games/reassembly.webp"
+ },
+ {
+  "kind": "game",
+  "id": "rounds",
+  "title": "ROUNDS",
+  "url": "https://store.steampowered.com/app/1557740/",
+  "src": "/img/logos/games/rounds.webp"
+ },
+ {
+  "kind": "game",
+  "id": "endless-sky",
+  "title": "Endless Sky",
+  "url": "https://endless-sky.github.io/",
+  "src": "/img/logos/games/endless-sky.webp"
+ },
+ {
+  "kind": "game",
+  "id": "yomi",
+  "title": "Your Only Move Is HUSTLE",
+  "url": "https://store.steampowered.com/app/2212330/",
+  "src": "/img/logos/games/yomi.webp"
+ },
+ {
+  "kind": "game",
+  "id": "air-brawl",
+  "title": "Air Brawl",
+  "url": "https://store.steampowered.com/app/375600/",
+  "src": "/img/logos/games/air-brawl.webp"
+ },
+ {
+  "kind": "word",
+  "id": "istrolid",
+  "title": "Istrolid",
+  "text": "ISTROLID",
+  "bg": "#0e1b2c",
+  "fg": "#7fd3ff",
+  "url": "https://store.steampowered.com/app/449140/",
+  "round": false
+ },
+ {
+  "kind": "word",
+  "id": "apu-pi-we",
+  "title": "Apupiwe, my language project",
+  "text": "apu pi we",
+  "bg": "#ffd23f",
+  "fg": "#111",
+  "url": "https://lilijoyskyseeker.github.io/apupiwe/",
+  "round": true
+ },
+ {
+  "kind": "word",
+  "id": "happy-to-help",
+  "title": "Happy to Help!, my music video about AI",
+  "text": "Happy to Help!",
+  "bg": "#ff4f5e",
+  "fg": "#111",
+  "url": "https://github.com/LilijoySkyseeker/happy-to-help",
+  "round": false
+ },
+ {
+  "kind": "word",
+  "id": "xenia-fan-club",
+  "title": "Xenia, the other Linux mascot",
+  "text": "Xenia fan club",
+  "bg": "#ff7ac8",
+  "fg": "#111",
+  "url": "https://xenia.efi.pages.gay/",
+  "round": false
+ },
+ {
+  "kind": "keeb",
+  "id": "keyboards",
+  "title": "split keyboards",
+  "url": "/projects/ergo-keyboards/"
+ }
+]
