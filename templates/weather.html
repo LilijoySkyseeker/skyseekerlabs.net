@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Internet weather · {{ config.title }}{% endblock title %}
+{% block content %}
+<span class="tag" style="--r:-2deg; background: var(--sky)">/weather</span>
+<h1 class="page-title">Internet weather</h1>
+<div class="prose">{{ section.content | safe }}</div>
+<div class="panel" style="margin-top: 24px">
+    <h2>The scale</h2>
+    <div class="scroll"><table class="bft-table">
+      <thead><tr><th>Force</th><th>Sailors say</th><th>The internet means</th><th>On this page</th></tr></thead>
+      <tbody>
+        <tr style="--c: var(--yellow)"><td>0</td><td>Calm</td><td>Nothing is on fire. Suspicious.</td><td>Sun's out behind him, he beams</td></tr>
+        <tr style="--c: var(--yellow)"><td>1</td><td>Light air</td><td>Someone fixed a typo in the docs.</td><td>Sun's out</td></tr>
+        <tr style="--c: var(--green)"><td>2</td><td>Light breeze</td><td>A minor version bump. Nobody panics.</td><td>Warm glow, gentle bob</td></tr>
+        <tr style="--c: var(--green)"><td>3</td><td>Gentle breeze</td><td>A big site is slow and everyone tweets about it.</td><td>Wind streaks in the background</td></tr>
+        <tr style="--c: var(--green)"><td>4</td><td>Moderate breeze</td><td>The cookie banners are breeding.</td><td>More wind, he looks unimpressed</td></tr>
+        <tr style="--c: var(--sky)"><td>5</td><td>Fresh breeze</td><td>A patch release breaks everything anyway.</td><td>Drizzle in the background</td></tr>
+        <tr style="--c: var(--sky)"><td>6</td><td>Strong breeze</td><td>Eleven lines of code vanish and take the builds with them.</td><td>Rain, he goes grey</td></tr>
+        <tr style="--c: var(--sky)"><td>7</td><td>Near gale</td><td>A phishing wave with your bank's logo on it.</td><td>Heavier rain</td></tr>
+        <tr style="--c: var(--orange)"><td>8</td><td>Gale</td><td>A botnet made of webcams and toasters.</td><td>Distant lightning, Xenia comments</td></tr>
+        <tr style="--c: var(--orange)"><td>9</td><td>Strong gale</td><td>A whole platform falls off the internet.</td><td>Lightning, Xenia comments</td></tr>
+        <tr style="--c: var(--red)"><td>10</td><td>Storm</td><td>A critical hole in a library everyone uses.</td><td>Frequent lightning</td></tr>
+        <tr style="--c: var(--red)"><td>11</td><td>Violent storm</td><td>Someone backdoored the plumbing.</td><td>Lightning, constantly</td></tr>
+        <tr style="--c: var(--pink)"><td>12</td><td>Hurricane force</td><td>Half the internet is down, and so is the status page.</td><td>He spins, debris swirls in the background</td></tr>
+        <tr style="--c: var(--nix)"><td>❄</td><td>Snow</td><td>Good Nix news, like a new NixOS release.</td><td>Nix snowflakes fall (the only time you see them)</td></tr>
+        <tr style="--c: var(--pink)"><td>🌈</td><td>Rainbow</td><td>A real win for open source.</td><td>A rainbow behind everything, in the flake colours</td></tr>
+        <tr style="--c: var(--muted)"><td>~</td><td>Fog</td><td>Nobody knows what's going on. It was DNS.</td><td>Everything goes a bit hazy</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="panel" style="margin-top: 22px">
+  <h2>The almanac</h2>
+  <ul class="almanac">
+  {%- for p in section.pages %}
+    <li><time>{{ p.date }}</time><span class="f">{% if p.extra.special %}{{ p.extra.special }}{% else %}F{{ p.extra.force }}{% endif %}</span><a href="{{ p.extra.source }}">{{ p.title }}</a></li>
+  {%- endfor %}
+  </ul>
+  <p class="note"><a href="/weather/atom.xml">Subscribe to Nimbus (Atom)</a></p>
+</div>
+{% endblock content %}

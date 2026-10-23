@@ -1,0 +1,85 @@
+# Shared by every /hire page. Everything public except current address and phone (owner, 2026-10-22).
+name = "Lillian Skyler Danforth"
+location = "San Francisco, CA"
+
+[skills]
+"Linux" = "Debian, Arch, Red Hat, NixOS and Gentoo families; Ubuntu Server, Fedora, Pop!_OS, EndeavourOS, Nobara. Fully declarative whole-system config, automated installs and updates."
+"Infrastructure" = "ZFS, zrepl, Restic, Docker, Podman, QEMU/KVM, Caddy, WireGuard, Tailscale, SOPS, systemd, Grafana, Loki, octoDNS, SSH with FIDO2 keys."
+"Hardware" = "Through-hole and SMD soldering, crimping, multimeters and oscilloscopes; building and repairing desktops, laptops and servers; switches, routers and running cable."
+"Scripting" = "Nix and Nix packaging, Bash; basic Python and Java; Arduino."
+"AI agents" = "Claude Code and Codex for coding and review, unattended jobs, sandboxing agents away from secrets and the network."
+"Other OSes" = "Windows 10/11 and Server, Microsoft Office, Hyper-V, macOS, iOS, Android."
+
+[[experience]]
+year = "now"
+title = "IT work and the homelab"
+org = "SkyseekerLabs"
+when = "see projects"
+
+[[experience]]
+year = "2025"
+title = "Rental Car Detailer"
+org = "Avis Budget Group, SFO Airport"
+when = "Aug–Oct 2025"
+
+[[experience]]
+year = "2025"
+title = "Elementary and Middle School Chess Coach"
+org = "Waddell Elementary and Lylburn Downing Middle School, Lexington, VA"
+when = "Aug 2023–May 2025"
+
+[[experience]]
+year = "2024"
+title = "Technical Book Editor"
+org = "freelance"
+when = "Mar–May 2024"
+
+[[education]]
+year = "2025"
+title = "Cyber Security & Network Administration"
+org = "Virginia Western Community College"
+when = "2023–2025"
+
+[[education]]
+year = "2022"
+title = "Electrical Engineering"
+org = "Rose-Hulman Institute of Technology"
+when = "2021–2022"
+
+[[education]]
+year = "2021"
+title = "Electronics Technology (trade and industrial program)"
+org = "Floyd Kay"
+when = "2017–2021"
+
+[roles.electronics]
+title = "Electronics technician"
+short = "electronics technician"
+lede = "Four years of electronics technology training, a year of electrical engineering, and a habit of soldering things at home: split keyboards from kits, battery swaps, a solar mesh-radio repeater, and two robots that won their competitions. I'm looking for <b>electronics technician</b> work, and I bring the Linux and IT side with me."
+facts = [["4 years", "electronics technology training", "--sky"], ["2 for 2", "robot competitions won, built solo", "--green"], ["SMD + through-hole", "soldering, scopes and meters", "--yellow"], ["Solar", "LoRa mesh repeater, run for months", "--pink"]]
+skills_order = ["Hardware", "Linux", "Infrastructure", "Scripting", "AI agents", "Other OSes"]
+projects = ["ergo-keyboards", "robotics-competitions", "device-repair", "meshtastic", "workshop-build", "log-monitoring"]
+
+[roles.sysadmin]
+title = "Linux and NixOS sysadmin"
+short = "Linux sysadmin"
+lede = "I run a five-machine NixOS fleet, with tested backups, monitoring that has caught real failures, and a public edge that keeps my home network off the internet. I'm looking for <b>Linux administration</b> roles, and I take on IT work through <a href=\"/labs/\">SkyseekerLabs</a>."
+facts = [["5", "NixOS machines, one Git repo", "--sky"], ["873 GB", "restored in a drill, verified", "--green"], ["7+ years", "of Linux", "--yellow"], ["153", "reviewed changes merged, Aug–Oct 2026", "--pink"]]
+skills_order = ["Linux", "Infrastructure", "Hardware", "Scripting", "AI agents", "Other OSes"]
+projects = ["nixos-fleet", "restore-drills", "vps-edge", "log-monitoring", "sops-secrets", "nixos-anywhere"]
+
+[roles.it]
+title = "IT support"
+short = "IT support"
+lede = "I'm the person family and friends call: printers, Wi-Fi, viruses, backups, new laptops, and teaching relatives to use them. Behind that is a homelab I run like a small office. I'm looking for <b>help desk and IT support</b> roles."
+facts = [["Years", "of family and friends IT", "--sky"], ["Windows, macOS, Linux", "iOS and Android too", "--green"], ["Backups", "set up for others, tested on mine", "--yellow"], ["2 years", "of network administration study", "--pink"]]
+skills_order = ["Other OSes", "Linux", "Infrastructure", "Hardware", "Scripting", "AI agents"]
+projects = ["family-it-support", "device-repair", "pihole", "self-hosted-services", "fido2-ssh", "restore-drills"]
+
+[roles.devops]
+title = "DevOps and infrastructure"
+short = "DevOps"
+lede = "Everything I run is declared in Git: five NixOS hosts, secrets, DNS and backups, with automated builds, reviewed pull requests and unattended jobs on timers. I'm looking for <b>DevOps and infrastructure</b> roles."
+facts = [["100%", "of the fleet declared in Git", "--sky"], ["30 min", "unattended server reinstall", "--green"], ["153", "reviewed changes merged, Aug–Oct 2026", "--yellow"], ["158", "audit findings ranked by root cause", "--pink"]]
+skills_order = ["Infrastructure", "Linux", "Hardware", "Scripting", "AI agents", "Other OSes"]
+projects = ["nixos-fleet", "nixos-anywhere", "agent-scheduled-jobs", "sops-secrets", "agent-security-audit", "log-monitoring"]

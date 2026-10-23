@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}/stickers · {{ config.title }}{% endblock title %}
+{% block content %}
+<span class="tag" style="--r:-2deg; background: var(--orange)">/stickers</span>
+<h1 class="page-title">Every sticker, flat</h1>
+<div class="prose" style="color: var(--muted)">{{ page.content | safe }}</div>
+<div class="sheet">
+{%- for s in load_data(path="data/stickers.json") %}{{ <sticker s={s} /> }}{% endfor %}
+</div>
+{% endblock content %}

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}/slashes · {{ config.title }}{% endblock title %}
+{% block content %}
+<span class="tag" style="--r:-2deg; background: var(--pink)">/slashes</span>
+<h1 class="page-title">Every page on this site</h1>
+<div class="prose" style="color: var(--muted)">{{ page.content | safe }}</div>
+<div class="slash-grid">
+    <a class="slash" href="/slashes/" style="--c: var(--yellow); --r: -1deg"><b>/about</b><p>Who I am, at whatever length you've got time for.</p></a>
+    <a class="slash" href="/slashes/" style="--c: var(--pink); --r: 1deg"><b>/now</b><p>What I'm up to, dated, so you can tell when I stopped updating it.</p></a>
+    <a class="slash" href="/slashes/" style="--c: var(--sky); --r: -2deg"><b>/uses</b><p>Hardware, keyboards, software, and excuses.</p></a>
+    <a class="slash" href="/fleet/" style="--c: var(--green); --r: 2deg"><b>/fleet</b><p>The machines, what runs where, and how this page got to you.</p></a>
+    <a class="slash" href="/weather/" style="--c: var(--sky); --r: 1deg"><b>/weather</b><p>Nimbus's scale and his almanac.</p></a>
+    <a class="slash" href="/slashes/" style="--c: var(--orange); --r: -1deg"><b>/colophon</b><p>How this site is built, drawn straight from the config.</p></a>
+    <a class="slash" href="/slashes/" style="--c: var(--purple); --r: 1deg"><b>/ai</b><p>Exactly where AI helped with this site, starting with Xenia's art, and where it didn't.</p></a>
+    <a class="slash" href="/slashes/" style="--c: var(--sky); --r: -2deg"><b>/inspiration</b><p>The sites, comics and people this place borrowed from, with links back.</p></a>
+    <a class="slash" href="/slashes/" style="--c: var(--yellow); --r: 2deg"><b>/verify</b><p>How to tell whether an account claiming to be me really is.</p></a>
+    <a class="slash" href="/slashes/" style="--c: var(--pink); --r: -1deg"><b>/changelog</b><p>What changed on the site, and when.</p></a>
+    <a class="slash" href="/labs/" style="--c: var(--sky); --r: 1deg"><b>/contact</b><p>Email, and what to expect back.</p></a>
+    <a class="slash secret" href="/slashes/" style="--c: var(--green)"><b>/quote-jar<span class="sh">hidden</span></b><p>Everything Xenia quotes from, with sources where we found them.</p></a>
+    <a class="slash secret" href="/" style="--c: var(--orange)"><b>/stickers<span class="sh">hidden</span></b><p>Every sticker on one sheet, and why it's there.</p></a>
+    <a class="slash secret" href="/slashes/" style="--c: var(--purple)"><b>/music<span class="sh">hidden</span></b><p>Artists on repeat.</p></a>
+    <a class="slash secret" href="/slashes/" style="--c: var(--sky)"><b>/keyboards<span class="sh">hidden</span></b><p>Every board I've built, and the layouts.</p></a>
+  </div>
+{% endblock content %}

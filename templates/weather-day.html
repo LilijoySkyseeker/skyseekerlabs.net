@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }} · Internet weather{% endblock title %}
+{% block content %}
+<span class="tag" style="--r:-2deg; background: var(--sky)">{{ page.date }} · {% if page.extra.special %}{{ page.extra.special }}{% else %}force {{ page.extra.force }}{% endif %}</span>
+<h1 class="page-title">{{ page.title }}</h1>
+<div class="prose">{{ page.content | safe }}<p>Source: <a href="{{ page.extra.source }}">{{ page.extra.source }}</a></p></div>
+<p><a href="/weather/">← the almanac</a></p>
+{% endblock content %}

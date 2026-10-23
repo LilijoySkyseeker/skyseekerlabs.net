@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %}The fleet · {{ config.title }}{% endblock title %}
+{% block content %}
+
+  <span class="tag" style="--r:-2deg; background: var(--green)">the fleet</span>
+  <h1 style="margin:14px 0 18px; font-size: clamp(1.9rem, 5vw, 3rem)">Four machines, one flake</h1>
+  <div class="neo" aria-label="System summary for torrent">
+    <img class="cut" src="stickers/nixos-flake.svg" alt="">
+    <div>
+      <dl>
+        <dt>lilijoy@torrent</dt><dd>&nbsp;</dd>
+        <dt>OS</dt><dd>NixOS unstable</dd>
+        <dt>Kernel</dt><dd>Linux 6.18</dd>
+        <dt>CPU</dt><dd>AMD Ryzen 7 9800X3D (16) @ 5.27 GHz</dd>
+        <dt>GPU</dt><dd>AMD Radeon RX 7900 XTX</dd>
+        <dt>Memory</dt><dd>96 GB</dd>
+        <dt>Disk</dt><dd>4 TB, ZFS, snapshots every 5 min</dd>
+        <dt>Shell</dt><dd>bash · Editor: neovim</dd>
+      </dl>
+      <div class="swatches"><i style="background: var(--orange)"></i><i style="background: var(--yellow)"></i><i style="background: var(--green)"></i><i style="background: var(--sky)"></i><i style="background: var(--nix-deep)"></i><i style="background: var(--purple)"></i><i style="background: var(--pink)"></i><i style="background: #fff"></i></div>
+    </div>
+  </div>
+
+  <div class="two">
+    <div class="panel">
+      <h2>Hosts</h2>
+      <div class="scroll"><table class="hosts">
+        <thead><tr><th>Host</th><th>Role</th><th>Channel</th></tr></thead>
+        <tbody>
+          <tr><td><span class="dot"></span>torrent</td><td>Desktop and the agents' workshop</td><td>unstable</td></tr>
+          <tr><td><span class="dot"></span>thinkpad</td><td>Laptop, encrypted, dual boot</td><td>unstable</td></tr>
+          <tr><td><span class="dot"></span>homelab</td><td>Media, photos, file shares, this website</td><td>stable</td></tr>
+          <tr><td><span class="dot"></span>vps</td><td>The public edge: a tunnel and nothing else</td><td>stable</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div class="panel">
+      <h2>This week</h2>
+      <div class="bars">
+        <div class="bar"><span>backups</span><span style="--v: 100%; --c: var(--green)"></span><span>2016/2016</span></div>
+        <div class="bar"><span>restore drill</span><span style="--v: 100%; --c: var(--nix)"></span><span>passed</span></div>
+        <div class="bar"><span>zdata used</span><span style="--v: 61%; --c: var(--yellow)"></span><span>61%</span></div>
+        <div class="bar"><span>flake.lock age</span><span style="--v: 30%; --c: var(--pink)"></span><span>2 days</span></div>
+      </div>
+      <p style="color: var(--muted); font-size: 14px; margin: 12px 0 0">Illustrative numbers. The real ones would be generated at build time.</p>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top: 22px">
+    <h2>How a visit reaches this page</h2>
+    <svg class="diagram" viewBox="0 0 760 170" role="img" aria-label="Diagram: a visitor reaches the vps, which forwards through a WireGuard tunnel to homelab, where Caddy serves the site.">
+      <g font-family="JetBrains Mono, monospace" font-size="14" text-anchor="middle">
+        <rect x="10" y="50" width="150" height="70" rx="14" fill="#1f1f28" stroke="#fbfbfb" stroke-width="3"/>
+        <text x="85" y="90" fill="#f3f3f6">you</text>
+        <rect x="300" y="50" width="160" height="70" rx="14" fill="#5277c3" stroke="#fbfbfb" stroke-width="3"/>
+        <text x="380" y="82" fill="#ffffff">vps</text><text x="380" y="102" fill="#ffffff" font-size="12">forwards 80/443</text>
+        <rect x="600" y="50" width="150" height="70" rx="14" fill="#67b84e" stroke="#fbfbfb" stroke-width="3"/>
+        <text x="675" y="82" fill="#111111">homelab</text><text x="675" y="102" fill="#111111" font-size="12">Caddy, static</text>
+        <path d="M162 85 H296" stroke="#ffd23f" stroke-width="4" fill="none"/><path d="M286 77 L298 85 L286 93" fill="#ffd23f"/>
+        <path d="M462 85 H596" stroke="#f5a9b8" stroke-width="4" stroke-dasharray="10 7" fill="none"/><path d="M586 77 L598 85 L586 93" fill="#f5a9b8"/>
+        <text x="229" y="70" fill="#aaaaba" font-size="12">internet</text>
+        <text x="529" y="70" fill="#aaaaba" font-size="12">WireGuard</text>
+      </g>
+    </svg>
+    <p style="color: var(--muted); font-size: 14px; margin: 6px 0 0">The real drawing would be generated from the flake. Full config: <a href="https://github.com/LilijoySkyseeker/nixOS">github.com/LilijoySkyseeker/nixOS</a>.</p>
+  </div>
+
+{% endblock content %}
