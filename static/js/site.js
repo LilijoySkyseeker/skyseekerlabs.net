@@ -451,7 +451,7 @@ fetch("/status.json", { cache: "no-store" }).then(r => r.ok ? r.json() : Promise
   const set = (k, t) => document.querySelectorAll(`[data-status="${k}"]`).forEach(el => { el.textContent = t; el.hidden = false; });
   if (s.uptime_days != null) set("uptime", `homelab ▲ up ${s.uptime_days} days`);
   if (s.deployed) { const m = Math.round((Date.now() - Date.parse(s.deployed)) / 60000); set("deployed", `deployed ${m < 60 ? m + " min" : Math.round(m / 60) + " h"} ago`); }
-  if (s.flake_lock_days != null) set("lock", `flake.lock ${s.flake_lock_days} days old`);
+  if (s.nixpkgs_days != null) set("lock", `nixpkgs ${s.nixpkgs_days} days old`);
 }).catch(() => {});
 
 // ---------- the SHUT UP button ----------
