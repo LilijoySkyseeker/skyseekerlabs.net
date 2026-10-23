@@ -63,7 +63,7 @@ projects = ["ergo-keyboards", "robotics-competitions", "device-repair", "meshtas
 [roles.sysadmin]
 title = "Linux and NixOS sysadmin"
 short = "Linux sysadmin"
-lede = "Hi, I'm Lillian. I'm an IT professional focused on Linux and sysadmin work, specifically NixOS and declarative config, with secondary skills in electronics technician work and hands-on building. I run a five-machine NixOS fleet with tested backups and monitoring that has caught real failures, and I take on IT work through <a href=\"/labs/\">SkyseekerLabs</a>."
+lede = "Hi, I'm Lillian, an IT professional focused on Linux administration, and on NixOS and declarative configuration in particular. I run a five-machine NixOS fleet with tested backups and monitoring that has caught real failures, and I take on IT work through <a href=\"/labs/\">SkyseekerLabs</a>. My secondary skills are in electronics and hands-on building."
 facts = [["5", "NixOS machines, one Git repo", "--sky"], ["873 GB", "restored in a drill, verified", "--green"], ["7+ years", "of Linux", "--yellow"], ["153", "reviewed changes merged, Aug–Oct 2026", "--pink"]]
 skills_order = ["Linux", "Infrastructure", "Hardware", "Scripting", "AI agents", "Other OSes"]
 projects = ["nixos-fleet", "restore-drills", "vps-edge", "log-monitoring", "sops-secrets", "nixos-anywhere"]
