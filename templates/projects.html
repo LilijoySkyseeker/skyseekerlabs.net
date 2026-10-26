@@ -3,8 +3,9 @@
 {% block content %}
 <span class="tag" style="--r:-2deg; background: var(--orange)">projects</span>
 <h1 class="page-title">{{ section.title }}</h1>
-<div style="max-width: 62ch; color: var(--muted)">{{ section.content | safe }}</div>
+{%- if section.pages %}
 <div class="pfilters" id="pfilters" role="group" aria-label="Filter projects"></div>
+{%- else %}{{ <uc /> }}{% endif %}
 <div class="proj-grid">
 {%- for p in section.pages %}{{ <project_card p={p} n={loop.index0} /> }}{% endfor %}
 </div>

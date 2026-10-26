@@ -365,7 +365,7 @@ body.quiet .collage .st, body.quiet .tplogo .led, body.quiet .cloudbtn img { ani
 .prose { max-width: 720px }
 .prose p, .prose li { margin: 0 0 1em }
 .prose h2 { font-size: 1.4rem; margin: 1.6em 0 .6em }
-.placeholder { border: 3px dashed var(--line); border-radius: 12px; padding: 10px 14px; color: var(--muted); font-size: 14px; margin: 0 0 18px }
+.uc { display: inline-block; margin: 14px 0 18px; padding: 10px 18px; background: var(--yellow); color: #111; font: 400 clamp(1.2rem, 3vw, 1.6rem)/1 var(--display); letter-spacing: .06em; border: 8px solid; border-image: repeating-linear-gradient(-45deg, #111 0 10px, var(--yellow) 10px 20px) 8; box-shadow: 0 6px 10px rgba(0,0,0,.5) }
 .page-title { margin: 14px 0 8px; font-size: clamp(1.9rem, 5vw, 3rem) }
 .quotes { list-style: none; padding: 0; display: grid; gap: 14px; max-width: 760px }
 .quotes li { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px }

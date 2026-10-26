@@ -7,7 +7,7 @@ colour = "yellow"
 +++
 Hi, I'm Lilijoy, your local computer person and home sysadmin. I run my own [homelab](/fleet/), I self-host everything I can, and I'm a big open source enthusiast.
 
-The other half of me works with my hands. I build [keyboards](/projects/ergo-keyboards/), I solder, I know my way around power tools, and I like helping other people learn to work with theirs. I'm a generalist, but if you make me pick one thing, it's Linux. It's always Linux.
+The other half of me works with my hands. I build keyboards, I solder, I know my way around power tools, and I like helping other people learn to work with theirs. I'm a generalist, but if you make me pick one thing, it's Linux. It's always Linux.
 
 ## Not a one-trick pony
 

@@ -4,6 +4,6 @@
 {% block content %}
 <span class="tag" style="--r:-2deg; background: var(--{{ page.extra.colour | default(value='sky') }})">{{ page.extra.tag | default(value="/" ~ page.slug) }}</span>
 <h1 class="page-title">{{ page.title }}</h1>
-{%- if page.extra.placeholder %}<p class="placeholder">Placeholder text. The real version comes out of the interview.</p>{% endif %}
+{%- if page.extra.placeholder %}{{ <uc /> }}{% endif %}
 <div class="prose">{{ page.content | safe }}</div>
 {% endblock content %}
