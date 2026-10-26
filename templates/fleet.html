@@ -21,8 +21,7 @@
     </div>
   </div>
 
-  <div class="two">
-    <div class="panel">
+  <div class="panel" style="margin-top: 22px">
       <h2>Hosts</h2>
       <div class="scroll"><table class="hosts">
         <thead><tr><th>Host</th><th>Role</th><th>Channel</th></tr></thead>
@@ -34,17 +33,6 @@
         </tbody>
       </table></div>
     </div>
-    <div class="panel">
-      <h2>This week</h2>
-      <div class="bars">
-        <div class="bar"><span>backups</span><span style="--v: 100%; --c: var(--green)"></span><span>2016/2016</span></div>
-        <div class="bar"><span>restore drill</span><span style="--v: 100%; --c: var(--nix)"></span><span>passed</span></div>
-        <div class="bar"><span>zdata used</span><span style="--v: 61%; --c: var(--yellow)"></span><span>61%</span></div>
-        <div class="bar"><span>flake.lock age</span><span style="--v: 30%; --c: var(--pink)"></span><span>2 days</span></div>
-      </div>
-      <p style="color: var(--muted); font-size: 14px; margin: 12px 0 0">Illustrative numbers. The real ones would be generated at build time.</p>
-    </div>
-  </div>
 
   <div class="panel" style="margin-top: 22px">
     <h2>How a visit reaches this page</h2>
@@ -62,7 +50,7 @@
         <text x="529" y="70" fill="#aaaaba" font-size="12">WireGuard</text>
       </g>
     </svg>
-    <p style="color: var(--muted); font-size: 14px; margin: 6px 0 0">The real drawing would be generated from the flake. Full config: <a href="https://github.com/LilijoySkyseeker/nixOS">github.com/LilijoySkyseeker/nixOS</a>.</p>
+    <p style="color: var(--muted); font-size: 14px; margin: 6px 0 0">Full config: <a href="https://github.com/LilijoySkyseeker/nixOS">github.com/LilijoySkyseeker/nixOS</a>.</p>
   </div>
 
 {% endblock content %}

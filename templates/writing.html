@@ -3,7 +3,7 @@
 {% block content %}
 <span class="tag" style="--r:-2deg; background: var(--purple)">writing</span>
 <h1 class="page-title">{{ section.title }}</h1>
-<div class="prose">{{ section.content | safe }}</div>
+{%- if not section.pages %}{{ <uc /> }}{% endif %}
 <ul class="posts" style="max-width: 760px">
 {%- for p in section.pages %}
   <li><span class="kind {{ p.extra.kind | default(value='log') }}">{{ p.extra.kind | default(value="log") }}</span><a href="{{ p.permalink }}">{{ p.title }}</a><small>{{ p.date | date(format="%-d %B %Y") }}</small></li>

@@ -1,46 +1,11 @@
 {% extends "base.html" %}
 {% block title %}SkyseekerLabs · {{ config.title }}{% endblock title %}
 {% block content %}
-<p class="placeholder">Placeholder text and prices. The real version comes out of the interview.</p>
-
-  <div class="labs-hero">
-    <div>
-      <span class="tag" style="--r:-2deg; background: var(--nix)">work with me</span>
-      <h1 style="margin-top:14px">Skyseeker<span>Labs</span> fixes the computers you depend on.</h1>
-      <p>It's me, Lillian, with an LLC so the paperwork is clean. I set up Linux and NixOS machines that stay working, build backups that have actually been restored, and help families and small offices with the IT they keep putting off.</p>
-    </div>
-    <div class="lab-badge"><strong>SkyseekerLabs</strong><small>LLC · California · est. 2026</small></div>
-  </div>
-
-  <div class="cards">
-    <div class="svc" style="--c: var(--nix)"><h3>NixOS and Linux machines</h3><p>Declarative configs for desktops and servers, from one laptop to a small fleet, with the reasons written down so you can maintain it after me.</p></div>
-    <div class="svc" style="--c: var(--green)"><h3>Backups that get tested</h3><p>ZFS snapshots, off-site replication, and a restore drill on a schedule, so the first restore isn't during the emergency.</p></div>
-    <div class="svc" style="--c: var(--pink)"><h3>Self-hosting and homelabs</h3><p>Media servers, photo libraries and file shares that you own, reachable from outside without opening your house to the internet.</p></div>
-    <div class="svc" style="--c: var(--yellow)"><h3>Family and small-office IT</h3><p>Setups, repairs, the printer, the Wi-Fi, and a short note afterwards that says what I changed.</p></div>
-  </div>
-
-  <div class="two">
-    <div class="panel">
-      <h2>How it goes</h2>
-      <ol class="steps">
-        <li><span>You email me what's wrong or what you want.</span></li>
-        <li><span>A short call to scope it, free.</span></li>
-        <li><span>A fixed price for defined jobs, hourly for the open-ended ones.</span></li>
-        <li><span>I hand over with written notes. You own everything.</span></li>
-      </ol>
-    </div>
-    <div class="panel">
-      <h2>Pricing</h2>
-      <p style="margin:0">Most small jobs land between <b>$[x]</b> and <b>$[y]</b>. Fleet and backup setups are quoted after the call.</p>
-      <h2 style="margin-top:18px">Not my thing</h2>
-      <ul class="nope"><li>Watching your employees.</li><li>Anything I'd have to keep secret from the people it affects.</li><li>(Your list here.)</li></ul>
-    </div>
-  </div>
-
-  <div class="contact">
-    <span>Email:</span><code>{{ config.extra.email }}</code>
-    <button class="btn" type="button" data-copy="{{ config.extra.email }}">Copy address</button>
-  </div>
-  <p style="color: var(--muted); font-size: 14px; margin-top: 14px">Placeholder address and prices. Case studies would link to write-ups in <a href="/writing/">writing</a>.</p>
-
+<span class="tag" style="--r:-2deg; background: var(--nix)">work with me</span>
+<h1 class="page-title">Skyseeker<span>Labs</span></h1>
+{{ <uc /> }}
+<div class="contact">
+  <span>Email:</span><code>{{ config.extra.email }}</code>
+  <button class="btn" type="button" data-copy="{{ config.extra.email }}">Copy address</button>
+</div>
 {% endblock content %}
