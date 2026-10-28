@@ -5,4 +5,4 @@ tag = "/contact"
 colour = "sky"
 placeholder = true
 +++
-[danforthls@skyseekerlabs.net](mailto:danforthls@skyseekerlabs.net)
+[lilijoyskyseeker@gmail.com](mailto:lilijoyskyseeker@gmail.com)
