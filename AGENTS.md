@@ -27,7 +27,8 @@ The source of skyseekerlabs.net: a Zola site built and served with Nix.
   dashes or stand-ins for them (en dash or spaced hyphen between clauses);
   ranges like 2023–2025 are fine. Ellipses are "...", never "…".
 - Personal details: nothing beyond what the site already shows. Never add a
-  phone number or a street address.
+  phone number, a street address, or the owner's legal name: the site's name
+  for them is Lilijoy Skyseeker.
 - Everything we make is CC0. Anything from someone else goes in ASSETS.md,
   with its source and terms, before it's committed.
 - Every link points at its source where one exists.

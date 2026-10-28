@@ -1,5 +1,5 @@
 # Shared by every /hire page. Everything public except current address and phone (owner, 2026-10-22).
-name = "Lillian Skyler Danforth"
+name = "Lilijoy Skyseeker"
 location = "San Francisco, CA"
 
 [skills]
@@ -58,7 +58,7 @@ projects = []
 title = "Linux and NixOS sysadmin"
 short = "Linux sysadmin"
 # From the owner's dictation (2026-10-22). Empty ledes show UNDER CONSTRUCTION.
-lede = "Hi, I'm Lillian. I'm an IT professional focused on Linux and sysadmin work, specifically NixOS and declarative config, with secondary skills in electronics technician work and hands-on building."
+lede = "Hi, I'm Lilijoy. I'm an IT professional focused on Linux and sysadmin work, specifically NixOS and declarative config, with secondary skills in electronics technician work and hands-on building."
 facts = []
 skills_order = ["Linux", "Infrastructure", "Hardware", "Scripting", "AI agents", "Other OSes"]
 projects = []

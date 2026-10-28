@@ -1,7 +1,7 @@
 # skyseekerlabs.net
 
-The personal site, portfolio and SkyseekerLabs LLC page of Lillian Skyler
-Danforth (Lilijoy). A laptop lid covered in stickers, a fox called Xenia, a
+The personal site, portfolio and SkyseekerLabs LLC page of Lilijoy
+Skyseeker. A laptop lid covered in stickers, a fox called Xenia, a
 weather cloud called Nimbus, and the actual work underneath.
 
 It's a static site built with [Zola](https://www.getzola.org/) and
